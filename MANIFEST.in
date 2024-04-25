@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include qoala *.css
+recursive-include qoala *.csv
+recursive-include qoala *.html
+recursive-include qoala *.ico
+recursive-include qoala *.js
+recursive-include qoala *.json
+recursive-include qoala *.md
+recursive-include qoala *.png
+recursive-include qoala *.py
+recursive-include qoala *.svg
+recursive-include qoala *.txt
+recursive-exclude qoala *.pyc
