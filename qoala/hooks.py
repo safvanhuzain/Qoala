@@ -129,23 +129,23 @@ app_license = "MIT"
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
+scheduler_events = {
 #	"all": [
 #		"qoala.tasks.all"
 #	],
 #	"daily": [
 #		"qoala.tasks.daily"
 #	],
-#	"hourly": [
-#		"qoala.tasks.hourly"
-#	],
+	"hourly": [
+		"qoala.crud_events.delete_failed_transactions"
+	],
 #	"weekly": [
 #		"qoala.tasks.weekly"
 #	],
 #	"monthly": [
 #		"qoala.tasks.monthly"
 #	],
-# }
+}
 
 # Testing
 # -------
