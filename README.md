@@ -13,7 +13,7 @@ Customizing ERPNext involves adding functionalities tailored to specific busines
   <h2>Step 2:Defining the Custom Function:</h2>
   <h3>ERPNext Batch Invoice Submission</h3>
     1) Transactional submission and rollback mechanism for invoices.<br>
-      &nbsp;&nbsp;&nbsp; # Within custom app directory, locate the custom_app folder.<br>
+      &nbsp;&nbsp;&nbsp; # Within custom app directory, locate the custom_app folder.(qoala/crud_events.py)<br>
         &nbsp;&nbsp;&nbsp; # Created a new Python file for custom function, e.g., crud_events.py<br>
         &nbsp;&nbsp;&nbsp; # Defined custom function within this file e.g., <b>generate_batch_wise_sales_invoice</b><br>
         &nbsp;&nbsp;&nbsp; #  This function will create and submit the Batch-wise sales invoices from a third party App with a unique identifier.<br>
